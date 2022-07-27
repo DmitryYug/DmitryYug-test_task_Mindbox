@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.tasksContainer {
+    align-self: flex-start;
+}
+
+.leftItems {
+    padding: 0 0 0 20px;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+}
+
+.flexContainer {
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+}
